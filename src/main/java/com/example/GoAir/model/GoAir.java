@@ -1,0 +1,25 @@
+package com.example.GoAir.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class GoAir
+{
+	@Id
+	private int fid;
+	private String name;
+	public int getFid() {
+		return fid;
+	}
+	public void setFid(int fid) {
+		this.fid = fid;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+}
